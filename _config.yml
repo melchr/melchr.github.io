@@ -5,7 +5,7 @@ header-img: img/home-bg.png
 email: melchrstmn@gmail.com
 copyright_name: Mel C.
 description: > # this means to ignore newlines until "baseurl:"
-  Read the title
+  -
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  melchr
