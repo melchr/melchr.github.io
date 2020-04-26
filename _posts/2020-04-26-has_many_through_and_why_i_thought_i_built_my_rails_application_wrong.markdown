@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Has Many Through and Why I Thought I Built My Rails Application Wrong"
-date:       2020-04-26 17:53:00 +0000
+date:       2020-04-26 13:53:00 -0400
 permalink:  has_many_through_and_why_i_thought_i_built_my_rails_application_wrong
 ---
 
