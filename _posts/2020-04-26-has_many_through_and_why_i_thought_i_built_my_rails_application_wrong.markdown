@@ -37,12 +37,12 @@ I quickly realized the way I wrote my User associations was by only relating the
 ```
 #user.rb
 has_many :reviews
-**has_many :reviewed_albums, through: :reviews, source: :album**
+has_many :reviewed_albums, through: :reviews, source: :album
 has_many :albums
 
 #album.rb
 has_many :reviews, :dependent => :destroy
-**has_many :reviewers, through: :reviews, source: :user**
+has_many :reviewers, through: :reviews, source: :user
 belongs_to :user
 
 #review didn't change
